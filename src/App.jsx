@@ -3,6 +3,7 @@ export const App = () => {
     <>
       <h1>Hellow World</h1>
       <p>And peple</p>
+      <h2>Or NOt</h2>
     </>
   );
 };
