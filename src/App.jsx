@@ -1,9 +1,10 @@
+import { Conteiner } from "./App.styled";
+import { Card } from "./Card/Card";
+
 export const App = () => {
   return (
-    <>
-      <h1>Hellow World</h1>
-      <p>And peple</p>
-      <h2>Or NOt</h2>
-    </>
+    <Conteiner>
+      <Card></Card>
+    </Conteiner>
   );
 };
