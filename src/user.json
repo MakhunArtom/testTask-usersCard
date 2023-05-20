@@ -4,7 +4,8 @@
     "tweets": "668",
     "followers": "232458",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "20"
+    "id": "20",
+    "isFolow": false
   },
 
   {
@@ -12,132 +13,151 @@
     "tweets": "747",
     "followers": "164725",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "19"
+    "id": "19",
+    "isFolow": false
   },
   {
     "user": "Natille Khadijah",
     "tweets": "532",
     "followers": "651634",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "18"
+    "id": "18",
+    "isFolow": false
   },
   {
     "user": "Mohana Felix",
     "tweets": "474",
     "followers": "351031",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "17"
+    "id": "17",
+    "isFolow": false
   },
   {
     "user": "Sashi Abbán",
     "tweets": "559",
     "followers": "475493",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "16"
+    "id": "16",
+    "isFolow": false
   },
   {
     "user": "Ji-Su Aria",
     "tweets": "424",
     "followers": "112708",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "15"
+    "id": "15",
+    "isFolow": false
   },
   {
     "user": "Maximinus Nur",
     "tweets": "459",
     "followers": "857353",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "14"
+    "id": "14",
+    "isFolow": false
   },
   {
     "user": "Bautista Naveen",
     "tweets": "555",
     "followers": "872287",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "13"
+    "id": "13",
+    "isFolow": false
   },
   {
     "user": "Rozálie Donald",
     "tweets": "199",
     "followers": "358807",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "12"
+    "id": "12",
+    "isFolow": false
   },
   {
     "user": "Rupa Innocenzo",
     "tweets": "332",
     "followers": "197407",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "11"
+    "id": "11",
+    "isFolow": false
   },
   {
     "user": "Edytha Lunete",
     "tweets": "373",
     "followers": "623403",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "10"
+    "id": "10",
+    "isFolow": false
   },
   {
     "user": "Thandeka Verónica",
     "tweets": "429",
     "followers": "846100",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "9"
+    "id": "9",
+    "isFolow": false
   },
   {
     "user": "Boleslava Burt",
     "tweets": "112",
     "followers": "313076",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "8"
+    "id": "8",
+    "isFolow": false
   },
   {
     "user": "Archelaus Sigilind",
     "tweets": "408",
     "followers": "890552",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "7"
+    "id": "7",
+    "isFolow": false
   },
   {
     "user": "Ilonka Giorgos",
     "tweets": "636",
     "followers": "828923",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "6"
+    "id": "6",
+    "isFolow": false
   },
   {
     "user": "Khorshid Damir",
     "tweets": "523",
     "followers": "777688",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "5"
+    "id": "5",
+    "isFolow": false
   },
   {
     "user": "Sharifa Nika",
     "tweets": "546",
     "followers": "533132",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "4"
+    "id": "4",
+    "isFolow": false
   },
   {
     "user": "Archelaos Anan",
     "tweets": "589",
     "followers": "604088",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "3"
+    "id": "3",
+    "isFolow": false
   },
   {
     "user": "Vipin Rufaro",
     "tweets": "918",
     "followers": "337621",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "2"
+    "id": "2",
+    "isFolow": false
   },
   {
     "user": "Damjana Cali",
     "tweets": "879",
     "followers": "859481",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRsc6RqBrnGbmAUdPbkX4y32UE2vkbNEZQ318YgCu0Ew&s",
-    "id": "1"
+    "id": "1",
+    "isFolow": false
   }
 ]

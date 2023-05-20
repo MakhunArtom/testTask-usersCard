@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import bk from "../img/backgraund.png";
-import avatar from "../img/Boy.svg";
+import bk from "../../img/backgraund.png";
+import avatar from "../../img/Boy.svg";
+import logo from "../../img/Logo.svg";
 
 export const CardList = styled.ul`
   display: flex;
@@ -8,6 +9,7 @@ export const CardList = styled.ul`
   gap: 48px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 20px;
 
   list-style: none;
 `;
@@ -92,7 +94,49 @@ export const Bottom = styled.button`
   text-transform: uppercase;
   color: #373737;
 
-  background-color: #ebd8ff;
+  background-color: ${({ folowing }) => (folowing ? "#5cd3a8" : "#ebd8ff")};
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  transition: background-color 250ms;
+
+  &:hover {
+    background-color: #5cd3a8;
+  }
+`;
+
+export const Logo = styled.div`
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  width: 79px;
+  height: 22px;
+
+  background-image: url(${logo});
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: red;
+  stroke: #f44336;
+  stroke-width: 3px;
+`;
+
+export const LoadMore = styled.button`
+  display: block;
+  width: 196px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1, 22;
+  text-transform: uppercase;
+  color: #373737;
+
+  background-color: #5cd3a8;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 10px;
