@@ -1,10 +1,10 @@
 import { Conteiner } from "./App.styled";
-import { Card } from "./components/Card/Card";
+import { UserList } from "./components/UserList/UserList";
 
 export const App = () => {
   return (
     <Conteiner>
-      <Card />
+      <UserList />
     </Conteiner>
   );
 };

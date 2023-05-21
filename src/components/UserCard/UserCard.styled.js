@@ -3,18 +3,7 @@ import bk from "../../img/backgraund.png";
 import avatar from "../../img/Boy.svg";
 import logo from "../../img/Logo.svg";
 
-export const CardList = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 48px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 20px;
-
-  list-style: none;
-`;
-
-export const CardItem = styled.li`
+export const CardUser = styled.li`
   position: relative;
 
   margin-right: auto;
@@ -123,22 +112,4 @@ export const Logo = styled.div`
   stroke-width: 3px;
 `;
 
-export const LoadMore = styled.button`
-  display: block;
-  width: 196px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
 
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1, 22;
-  text-transform: uppercase;
-  color: #373737;
-
-  background-color: #5cd3a8;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-`;
