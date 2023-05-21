@@ -111,5 +111,3 @@ export const Logo = styled.div`
   stroke: #f44336;
   stroke-width: 3px;
 `;
-
-

@@ -8,6 +8,12 @@ export const delimiter = (value) => {
   return Number(value).toLocaleString("ja-JP");
 };
 
+/**
+ *  calc total folowers
+ * @param {string} quntity
+ * @param {bulean} isFolow
+ * @returns numver
+ */
 export const counterFollow = (quntity, isFolow) => {
   let quntytiFollow = Number(quntity);
 

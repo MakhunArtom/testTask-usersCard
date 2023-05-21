@@ -18,4 +18,12 @@ export const BtnLoadMore = styled.button`
   border: none;
   border-radius: 10px;
   cursor: pointer;
+
+  transition: background-color 250ms, color 250ms;
+
+  &:hover,
+  &:focus {
+    background-color: #1943cf;
+    color: #ffffff;
+  }
 `;
