@@ -1,17 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 
-import { NavList, StyledLink } from "./App.styled";
-
-import { Tweets } from "../page/tweets/Tweets";
-import { Home } from "../page/home/Home";
+import { Header, Home, Tweets } from "../page/index";
 
 export const App = () => {
   return (
     <>
-      <NavList>
-        <StyledLink to="/">Home</StyledLink>
-        <StyledLink to="/tweets">Tweets</StyledLink>
-      </NavList>
+      <Header></Header>
 
       <Routes>
         <Route path="/" element={<Home />} />

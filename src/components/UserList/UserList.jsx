@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { counterFollow } from "../../utils/utils";
 import { changeFolow, getUsers } from "../../API/index";
 
-import { UserCard } from "../UserCard/UserCard";
-import { LoadMore } from "../LoadMore/LoadMore";
+import { UserCard } from "../userCard/UserCard";
+import { LoadMore } from "../loadMore/LoadMore";
 import { Spiner } from "../spiner/Spiner";
 
 import { CardList } from "./UserList.styled";

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BackBtn = styled.button`
   position: absolute;
   top: 10px;
-  left: 45px;
+  left: 49px;
 
   display: inline-block;
   width: 50px;

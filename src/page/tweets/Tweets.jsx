@@ -2,7 +2,7 @@ import { Conteiner } from "../../App/App.styled";
 import { PageSection } from "./Tweets.styled";
 
 import { GoBackBtn } from "../../components/goBackBtn/GoBackBtn";
-import { UserList } from "../../components/UserList/UserList";
+import { UserList } from "../../components/userList/UserList";
 
 export const Tweets = () => {
   return (
