@@ -2,8 +2,10 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
 export const Headeer = styled.header`
-  padding: 20px 0;
-  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
 
   border-bottom: 2px solid blue;
 `;

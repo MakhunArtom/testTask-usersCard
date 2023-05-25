@@ -6,6 +6,8 @@ import {
   NavigateItem,
 } from "./Header.styled";
 
+import { DropBar } from "../../components/dropBar/DropBar";
+
 export const Header = () => {
   return (
     <Headeer>
@@ -19,6 +21,8 @@ export const Header = () => {
           </NavigateItem>
         </NavigateList>
       </Navigate>
+
+      <DropBar></DropBar>
     </Headeer>
   );
 };
