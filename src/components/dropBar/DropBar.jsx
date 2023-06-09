@@ -6,11 +6,54 @@ import {
   StyledDropBarMenuItem,
 } from "./DropBar.styled";
 
-export const DropBar = () => {
+import { getUsers, getFolow } from "../../API/index";
+
+export const DropBar = ({ setUsers, setFilter }) => {
   const [open, setOpen] = useState(false);
 
+  const hendelFilterBtn = ({ target: { textContent } }) => {
+    switch (textContent) {
+      case "Get All":
+        setUsers([]);
+        setFilter("all");
+
+        setOpen((prev) => !prev);
+
+        getUsers().then((resp) => setUsers((prev) => [...prev, ...resp]));
+
+        break;
+
+      case "Get Folow":
+        setUsers([]);
+        setFilter("folow");
+
+        setOpen((prev) => !prev);
+
+        getFolow().then((resp) =>
+          setUsers(() => resp.filter(({ isFolow }) => isFolow === false))
+        );
+
+        break;
+
+      case "Get Folowing":
+        setUsers([]);
+        setFilter("folowing");
+
+        setOpen((prev) => !prev);
+
+        getFolow().then((resp) =>
+          setUsers(() => resp.filter(({ isFolow }) => isFolow === true))
+        );
+
+        break;
+
+      default:
+        return;
+    }
+  };
+
   return (
-    <DropBarWraper>
+    <DropBarWraper onClick={hendelFilterBtn}>
       <DropBarBtn onClick={() => setOpen((prev) => !prev)}>Fillter</DropBarBtn>
 
       {open && DropBarMenu()}

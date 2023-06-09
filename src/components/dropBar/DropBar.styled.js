@@ -32,11 +32,30 @@ export const DropBarMenuWraper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  /* background-color: red; */
+
+  z-index: 9999;
 `;
 
 export const StyledDropBarMenuItem = styled.button`
   width: 100px;
   margin-right: auto;
   margin-left: auto;
+
+  padding: 3px;
+
+  color: black;
+  background-color: #5cd3a8;
+  border: none;
   border-radius: 10px;
+  cursor: pointer;
+
+  transition: background-color 250ms, color 250ms;
+
+  &:hover,
+  &:focus {
+    background-color: #1943cf;
+    color: #ffffff;
+  }
 `;

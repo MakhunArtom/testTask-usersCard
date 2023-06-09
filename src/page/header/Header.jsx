@@ -1,3 +1,6 @@
+import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+
 import {
   Navigate,
   NavigateLink,
@@ -8,7 +11,21 @@ import {
 
 import { DropBar } from "../../components/dropBar/DropBar";
 
-export const Header = () => {
+export const Header = ({ setUsers, setFilter }) => {
+  const [isTweets, setIsTweets] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setFilter("all");
+    setIsTweets((prev) => {
+      if (location.pathname === "/tweets") {
+        return true;
+      }
+
+      return false;
+    });
+  }, [location, setFilter]);
+
   return (
     <Headeer>
       <Navigate>
@@ -22,7 +39,9 @@ export const Header = () => {
         </NavigateList>
       </Navigate>
 
-      <DropBar></DropBar>
+      {isTweets && (
+        <DropBar setFilter={setFilter} setUsers={setUsers}></DropBar>
+      )}
     </Headeer>
   );
 };

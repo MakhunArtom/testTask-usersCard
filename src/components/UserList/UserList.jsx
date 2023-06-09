@@ -9,13 +9,13 @@ import { Spiner } from "../spiner/Spiner";
 
 import { CardList } from "./UserList.styled";
 
-export const UserList = () => {
-  const [users, setUsers] = useState([]);
+export const UserList = ({ user: { users, setUsers, filter } }) => {
   const [page, setPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
   const shuldrenderLoadMore = users.length < 20 && !isLoading;
+  const filterStatus = filter === "all";
 
   useEffect(() => {
     setIsLoading(true);
@@ -23,9 +23,9 @@ export const UserList = () => {
       .then((resp) => setUsers((prev) => [...prev, ...resp]))
       .catch((err) => setError(err.message))
       .finally(() => setIsLoading(false));
-  }, [page]);
+  }, [page, setUsers]);
 
-  const handelPageChang = (e) => setPage((prev) => (prev += 1));
+  const handelPageChang = () => setPage((prev) => (prev += 1));
 
   const handelFolowerChang = ({ target }, isFolow, followers) => {
     const userId = target.dataset.id;
@@ -53,13 +53,17 @@ export const UserList = () => {
         {error ? (
           <h1>{error}</h1>
         ) : (
-          <UserCard users={users} handelFolowerChang={handelFolowerChang} />
+          <UserCard
+            filter={filter}
+            users={users}
+            handelFolowerChang={handelFolowerChang}
+          />
         )}
       </CardList>
 
       {isLoading && <Spiner></Spiner>}
 
-      {shuldrenderLoadMore && (
+      {shuldrenderLoadMore && filterStatus && (
         <LoadMore handelPageChang={handelPageChang}></LoadMore>
       )}
     </>

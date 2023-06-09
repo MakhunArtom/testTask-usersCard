@@ -12,7 +12,7 @@ import {
 export const UserCard = ({ users, handelFolowerChang }) => {
   return (
     <>
-      {users.map(({ user, tweets, followers, avatar, id, isFolow }) => {
+      {users.map(({ tweets, followers, id, isFolow }) => {
         return (
           <CardUser key={id}>
             <Logo />
